@@ -11,6 +11,8 @@ TABEL FUNGSI SOAL 1
 | nilai_huruf | nilai_akhir | Ya (Non-void) | Mengonversi angka nilai akhir menjadi predikat nilai huruf (A, B, C, D, E)
 | keterangan_lulus | nilai_huruf | Ya (Non-void) | Status kelulusan mahasiswa berdasarkan nilai huruf (minimal huruf C)
 | tampilkan_rekap | data_mahasiswa | Tidak (Void) | Tabel rekapitulasi nilai, rata-rata nilai kelas, dan jumlah total mahasiswa yang lulus
+
+
 PERHIYUNGAN MANUAL
 1.Aryy (Tugas: 80, UTS: 70, UAS: 90)  
 ​Nilai Akhir: (80 x 0.30) + (70 x 0.30) + (90 x 0.40) = 24 + 21 + 36 = 81.00
@@ -20,8 +22,12 @@ PERHIYUNGAN MANUAL
 ​Nilai Akhir: (75 x 0.30) + (80 x 0.30) + (65 x 0.40) = 22.5 + 24 + 26 = 72.50
 ​Nilai Huruf: Karena 72.5 berada pada rentang 70 < 85, maka nilai hurufnya adalah B.  
 ​Hasil Verifikasi: Keluaran program menghasilkan Nilai Akhir 72.50 dengan Nilai Huruf B (Sesuai).
+
+
 TAMBAHAN FITUR
 1.menambahkan fungsi non void baru contoh cari_mahasiswa_tertinggi(data mahasiswa) untuk membandingkan nilai akhir dan mengembalikan data mahasiswa dengan maksimal
+
+
 FUNGSI YNG TIDAK PERLU DISENTUH
 nilai_akhir , nilai_huruf , dan keterangan_lulus karena fungsi ini sudah mengerjakan satu tugas spesifik dan dappat digunakan kembali secara langsung di dalam fungsi pencari nilai tertinggi tanpa mengubah logikanya.
 
@@ -36,6 +42,8 @@ TABEL FUNGSI SOAL 2
 | hitung_biaya_jarak | jarak | Ya (Non-void) | Menentukan tambahan biaya jarak (Rp0 jika <= 20 km, Rp5.000 jika > 20 km)
 | hitung_ongkir_akhir | berat, jarak, status_anggota | Ya (Non-void) | Menghitung subtotal ongkir, mengecek potongan diskon anggota 10%, dan mengembalikan rincian biaya secara lengkap
 | cetak_semua_struk | daftar_pesanan | Tidak (Void) | Mencetak format struk belanja per pelanggan serta mengakumulasi total pendapatan harian toko
+
+
 PERHITUNGAN MANUAL
 Perhitungan Manual Ongkir Akhir
 ​Sari(berat:5kg, jarak:25km,anggota:bukan)
@@ -54,6 +62,8 @@ biaya berat:2kg = rp10.000
 biaya jarak: 30>20 =rp 5.000
 subtotal:10.000 + 5.000 = 15.000
 ongkir akhir:15.000 - 1.500 =rp 13.500(program terbukti berhasil)
+
+
 BAGIAN KODE YANG HARUS DIUBAH
 jika toko mengubah batas jarak menjadi 15km dan biaya tambahan jarak menjadi rp 7.000:
 hitung_biaya_jarak(jarak)
