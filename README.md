@@ -1,5 +1,7 @@
 # Tugas-algoritma-1
 tugas1 algoritma dan pemograman
+
+
 SOAL 1
 TABEL FUNGSI SOAL 1
 | Nama Fungsi | Parameter | Mengembalikan Nilai (Ya/Tidak) | Tugas yang Dikerjakan |
