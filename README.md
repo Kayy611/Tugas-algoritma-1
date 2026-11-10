@@ -4,6 +4,8 @@ tugas1 algoritma dan pemograman
 
 SOAL 1
 TABEL FUNGSI SOAL 1
+
+
 | Nama Fungsi | Parameter | Mengembalikan Nilai (Ya/Tidak) | Tugas yang Dikerjakan |
 | nilai_akhir | tugas, uts, uas | Ya (Non-void) | hasil kalkulasi nilai akhir berdasarkan bobot tugas 30%, UTS 30%, dan UAS 40%)
 | nilai_huruf | nilai_akhir | Ya (Non-void) | Mengonversi angka nilai akhir menjadi predikat nilai huruf (A, B, C, D, E)
@@ -27,6 +29,8 @@ nilai_akhir , nilai_huruf , dan keterangan_lulus karena fungsi ini sudah mengerj
 
 SOAL 2
 TABEL FUNGSI SOAL 2
+
+
 | Nama Fungsi | Parameter | Mengembalikan Nilai (Ya/Tidak) | Tugas yang Dikerjakan |
 | hitung_biaya_berat | berat | Ya (Non-void) | Menghitung besaran biaya berdasarkan berat paket (Rp10.000 untuk <= 2 kg, penambahan Rp4.000/kg berikutnya)
 | hitung_biaya_jarak | jarak | Ya (Non-void) | Menentukan tambahan biaya jarak (Rp0 jika <= 20 km, Rp5.000 jika > 20 km)
